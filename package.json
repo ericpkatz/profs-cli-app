@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:dev": "npm run test -- --watch",
-    "test": "DATABASE_URL=postgres://localhost/profs_cli_db mocha test/server/**/*.js"
+    "test": "DATABASE_URL=postgres://localhost/profs_cli_db mocha test/server/**/*.js --exit"
   },
   "keywords": [],
   "author": "",
